@@ -95,6 +95,19 @@
 		84DA995A196CAD4C0064A552 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9810196CA05D0064A552 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA995B196CAD4D0064A552 /* AFHTTPRequestOperationManager+RAFMocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA98DA196CA4E00064A552 /* AFHTTPRequestOperationManager+RAFMocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA995C196CAE5A0064A552 /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA987A196CA1520064A552 /* libReactiveCocoa-iOS.a */; };
+		8FDC60E31A39D5A900B12DE9 /* AFHTTPRequestOperationManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97EE196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m */; };
+		8FDC60E41A39D5A900B12DE9 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F0196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m */; };
+		8FDC60E51A39D5A900B12DE9 /* AFURLConnectionOperation+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F2196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m */; };
+		8FDC60E61A39D5A900B12DE9 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F4196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m */; };
+		8FDC60E71A39D5A900B12DE9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9800196CA05D0064A552 /* AFHTTPRequestOperation.m */; };
+		8FDC60E81A39D5A900B12DE9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9802196CA05D0064A552 /* AFHTTPRequestOperationManager.m */; };
+		8FDC60E91A39D5A900B12DE9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9804196CA05D0064A552 /* AFHTTPSessionManager.m */; };
+		8FDC60EA1A39D5A900B12DE9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9807196CA05D0064A552 /* AFNetworkReachabilityManager.m */; };
+		8FDC60EB1A39D5A900B12DE9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9809196CA05D0064A552 /* AFSecurityPolicy.m */; };
+		8FDC60EC1A39D5A900B12DE9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA980B196CA05D0064A552 /* AFURLConnectionOperation.m */; };
+		8FDC60ED1A39D5A900B12DE9 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA980D196CA05D0064A552 /* AFURLRequestSerialization.m */; };
+		8FDC60EE1A39D5A900B12DE9 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA980F196CA05D0064A552 /* AFURLResponseSerialization.m */; };
+		8FDC60EF1A39D5A900B12DE9 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9811196CA05D0064A552 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1044,6 +1057,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDC60E31A39D5A900B12DE9 /* AFHTTPRequestOperationManager+RACSupport.m in Sources */,
+				8FDC60E41A39D5A900B12DE9 /* AFHTTPSessionManager+RACSupport.m in Sources */,
+				8FDC60E51A39D5A900B12DE9 /* AFURLConnectionOperation+RACSupport.m in Sources */,
+				8FDC60E61A39D5A900B12DE9 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				8FDC60E71A39D5A900B12DE9 /* AFHTTPRequestOperation.m in Sources */,
+				8FDC60E81A39D5A900B12DE9 /* AFHTTPRequestOperationManager.m in Sources */,
+				8FDC60E91A39D5A900B12DE9 /* AFHTTPSessionManager.m in Sources */,
+				8FDC60EA1A39D5A900B12DE9 /* AFNetworkReachabilityManager.m in Sources */,
+				8FDC60EB1A39D5A900B12DE9 /* AFSecurityPolicy.m in Sources */,
+				8FDC60EC1A39D5A900B12DE9 /* AFURLConnectionOperation.m in Sources */,
+				8FDC60ED1A39D5A900B12DE9 /* AFURLRequestSerialization.m in Sources */,
+				8FDC60EE1A39D5A900B12DE9 /* AFURLResponseSerialization.m in Sources */,
+				8FDC60EF1A39D5A900B12DE9 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
